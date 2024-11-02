@@ -1,36 +1,39 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
+import logo from '../assets/logo.png';
 
 const Navbar = () => {
   return (
 
 <nav className="navbar">
   <div className="navbar-left">
-    <a href="/" className="logo">
+    <Link to="/" className="logo">
+    <img src={logo} alt="The Fitness App Logo" className="logo-image" />
       TheFitnessApp
-    </a>
+    </Link>
   </div>
   <div className="navbar-center">
     <ul className="nav-links">
       <li>
-        <a href="/home">Home</a>
+        <Link to="/">Home</Link>
       </li>
       <li>
-        <a href="/activity">Activity</a>
+        <Link to="/activity">Activity</Link>
       </li>
       <li>
-        <a href="/contact">Leaderboard</a>
+        <Link to="/leaderboard">Leaderboard</Link>
       </li>
     </ul>
   </div>
   <div className="navbar-right">
-    <a href="/cart" className="notif-icon">
+    <Link to="/notif" className="notif-icon">
       <i className="fas fa-bell"></i>
       <span className="notif-count">0</span>
-    </a>
-    <a href="/account" className="user-icon">
+    </Link>
+    <Link to="/account" className="user-icon">
       <i className="fas fa-user"></i>
-    </a>
+    </Link>
   </div>
 </nav>
 );
