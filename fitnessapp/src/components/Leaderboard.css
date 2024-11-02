@@ -1,0 +1,52 @@
+.leaderboard-container {
+  max-width: 600px; /* Limits the width for a better view */
+  margin: 40px auto; /* Centers the container with a margin on top and bottom */
+  padding: 20px;
+  border-radius: 10px; /* Rounds the corners of the container */
+  background-color: #f8f9fa; /* Light gray background */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+h1 {
+  text-align: center;
+  color: #343a40; /* Darker color for the title */
+  font-size: 2em; /* Increases the font size for the title */
+  margin-bottom: 20px; /* Adds space below the title */
+}
+
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse; /* Removes space between table cells */
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  padding: 12px; /* Increased padding for better spacing */
+  text-align: center;
+  border: 1px solid #dee2e6; /* Light border for table cells */
+}
+
+.leaderboard-table th {
+  background-color: purple; /* Blue background for the header */
+  color: white; /* White text for the header */
+  font-weight: bold; /* Makes header text bold */
+  text-transform: uppercase; /* Uppercase letters for header */
+}
+
+.leaderboard-table tr:nth-child(even) {
+  background-color: #e9ecef; /* Light gray for even rows */
+}
+
+.leaderboard-table tr:hover {
+  background-color: #f1f1f1; /* Light hover effect for rows */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.leaderboard-table td {
+  font-size: 1.1em; /* Slightly larger font size for table cells */
+}
+
+.leaderboard-table td:first-child {
+  font-weight: bold; /* Makes the rank column bold */
+  color: red; /* purple color for rank */
+}
