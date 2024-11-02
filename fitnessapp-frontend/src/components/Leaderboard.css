@@ -1,0 +1,79 @@
+/* Main container with a darker purple background */
+.leaderboard-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: purple; /* Dark purple */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Fun and bold header styling */
+h1 {
+  text-align: center;
+  color: #d8b4ff; /* Light lavender color */
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #6d28d9; /* Darker shadow for a glowing effect */
+}
+
+/* Styling for the table with complementary purple shades */
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #6d28d9; /* Darker purple border */
+}
+
+/* Dark purple header with light text */
+.leaderboard-table th {
+  background-color: #5a189a; /* Darker purple */
+  color: #e5d5ff; /* Light lavender */
+  font-size: 1.2em;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+/* Alternating row colors for a fun but darker look */
+.leaderboard-table tr:nth-child(even) {
+  background-color: #4c1a57; /* Medium-dark purple */
+}
+
+.leaderboard-table tr:nth-child(odd) {
+  background-color: #3b0a45; /* Dark purple */
+}
+
+/* Hover effect for table rows */
+.leaderboard-table tr:hover {
+  background-color: #6d28d9; /* Brighter purple hover effect */
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: all 0.3s ease;
+}
+
+/* Large, colorful ranks and bold font */
+.leaderboard-table td {
+  font-size: 1.3em;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  color: #d8b4ff; /* Light lavender */
+}
+
+/* Specific styling for the rank column */
+.leaderboard-table td.rank {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #e0aaff; /* Lighter purple */
+}
+
+/* Emoji icons to represent medals for top ranks */
+.leaderboard-table td.rank {
+  font-size: 1.8em;
+}

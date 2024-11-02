@@ -1,0 +1,40 @@
+/* src/components/Footer.css */
+.footer {
+    background-color: purple; /* or any color you like */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links {
+    margin: 10px 0;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.social-media {
+    margin: 10px 0;
+}
+
+.social-media a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem; /* Adjust size for icons */
+}
+
+.social-media a:hover {
+    color: #f0f0f0; /* Optional hover effect */
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 0.8rem; /* Smaller text for copyright */
+}
