@@ -1,0 +1,26 @@
+.exercise-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .exercise-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 10px;
+    width: 250px; /* Adjust width as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .exercise-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .exercise-card img {
+    width: 100%; /* Makes the image responsive */
+    border-radius: 4px;
+  }
+  
