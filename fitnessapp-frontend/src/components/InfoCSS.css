@@ -1,0 +1,68 @@
+/* Styles for the Learn component's main container */
+.learn-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Aligns items at the start to reduce height */
+  max-width: 90%; /* Sets a max-width to 80% of the viewport */
+  margin: 4rem auto; /* Adds vertical margin to separate from other sections */
+  padding: 10px; /* Reduces padding to lessen overall height */
+  background-color: #9b1079; /* Dark purple background */
+  color: #f3e8ff; /* Light purple text */
+  border-radius: 3rem;
+}
+
+.learn-info-heading {
+  font-size: 1.8em;
+  color: #d8b4ff; /* Light purple for headings */
+}
+
+.learn-info-section {
+  text-align: center;
+  margin: 20px 0; /* Adds vertical margin between sections */
+}
+
+/* Styles for paragraphs in the Learn component */
+.learn-info-paragraph {
+  margin: 0; /* Removes margin from the paragraph */
+  font-size: 1.5rem;
+}
+
+/* Styles for lists in the Learn component */
+.learn-info-list {
+  list-style-type: none;
+  padding: 0;
+  max-width: 600px;
+  text-align: left;
+}
+
+/* Styles for list items in the Learn component */
+.learn-info-list-item {
+  font-size: 1.1em;
+  margin: 8px 0;
+}
+
+.learn-info-content {
+  display: flex;
+  align-items: flex-start; /* Aligns items to the top */
+  justify-content: space-between; /* Space between text and image */
+  margin: 20px 0; /* Adds vertical margin */
+}
+
+
+.learn-info-header {
+  font-size: 3.25rem; /* Size of the section header */
+  color: #d8b4ff; /* Light purple for the header */
+  margin-bottom: 2rem; /* Adds margin below the header */
+}
+
+.info-image {
+  width: 35%; /* Adjusts the image width */
+  border-radius: 10px; /* Optional: adds border radius to images */
+}
+
+.learn-text-container {
+  width: 45%; /* Container for the text, adjust width as needed */
+  text-align: center; /* Center text inside the text container */
+  margin: auto;
+}
