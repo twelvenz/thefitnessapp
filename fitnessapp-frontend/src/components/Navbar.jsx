@@ -25,19 +25,19 @@ const Navbar = () => {
         <Link to="/leaderboard">Leaderboard</Link>
       </li>
       <li>
-        <Link to="/">BuffyBot</Link> {/* not yet implemented */}
+        <Link to="/coming-soon">BuffyBot</Link> {/* not yet implemented */}
       </li>
     </ul>
   </div>
   <div className='premium'>
-      <Link to="/" className='premium-button'>Get Premium</Link> {/* not yet implemented */}
+      <Link to="/coming-soon" className='premium-button'>Get Premium</Link> {/* not yet implemented */}
   </div>
   <div className="navbar-right">
-    <Link to="/notif" className="notif-icon">
+    <Link to="/coming-soon" className="notif-icon">
       <i className="fas fa-bell"></i>
       <span className="notif-count">0</span>
     </Link>
-    <Link to="/account" className="user-icon">
+    <Link to="/coming-soon" className="user-icon">
       <i className="fas fa-user"></i>
     </Link>
   </div>

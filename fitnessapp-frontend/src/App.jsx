@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import HomeContent from './components/HomeContent';
 import Leaderboard from './components/Leaderboard';
 import Activity from './components/Activity';
+import ComingSoon from './components/ComingSoon';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path="/" element={<HomeContent />} />
         <Route path="/activity" element={<Activity />} />
         <Route path="/leaderboard" element={<Leaderboard />} />
+        <Route path="/coming-soon" element={<ComingSoon />} />
       </Routes>
     </Router>
   );
