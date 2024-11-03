@@ -24,7 +24,13 @@ const Navbar = () => {
       <li>
         <Link to="/leaderboard">Leaderboard</Link>
       </li>
+      <li>
+        <Link to="/">BuffyBot</Link> {/* not yet implemented */}
+      </li>
     </ul>
+  </div>
+  <div className='premium'>
+      <Link to="/" className='premium-button'>Get Premium</Link> {/* not yet implemented */}
   </div>
   <div className="navbar-right">
     <Link to="/notif" className="notif-icon">

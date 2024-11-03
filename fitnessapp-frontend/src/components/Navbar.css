@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -22,7 +24,7 @@
   }
   
   .navbar-center .nav-links a:hover {
-    background-color: rgba(255, 255, 255, 0.2); /* Optional: add hover effect */
+    background-color: rgba(255, 255, 255, 0.2);
   }
 
   .navbar-center .nav-links li {
@@ -41,6 +43,7 @@
   .navbar-right {
     display: flex;
     align-items: center;
+    margin-left: 1rem;
   }
   
   .navbar-right .notif-icon,
@@ -65,4 +68,29 @@
   .logo-image {
     height: 4rem;
     vertical-align: middle;
+  }
+
+  .premium {
+    display: flex;
+    align-items: center;
+  }
+
+  .premium-button {
+    font-family: "Poppins", sans-serif;
+    background-color: gold;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 1rem;
+  }
+
+  .premium-button:hover {
+    background-color: #ffd700;
+    transform: scale(1.05);
   }
