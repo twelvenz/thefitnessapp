@@ -1,1 +1,1 @@
-Tried C# implementation but didn't work or ignore
+Tried C# implementation but didn't work so ignore
